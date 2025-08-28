@@ -29,9 +29,6 @@ for (const btn of callButtons){
         const serviceName = container.querySelector('.service-name').textContent;
         const serviceNumber = container.querySelector('.service-number').textContent;
 
-        // const serviceName = document.querySelectorAll('.service-name').textContent;
-        // const serviceNumber = document.querySelectorAll('.service-number').textContent;
-
         if(coins < 20){
             alert('You don,t have enough coins. You need at least 20 coins to make the call.')
             return;
