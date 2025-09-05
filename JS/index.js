@@ -1,4 +1,4 @@
-// Heart Count Section 
+// Heart count section 
 const hearts = document.querySelectorAll('.heart');
 let count = 0;
 for(const heart of hearts){
@@ -12,8 +12,7 @@ for(const heart of hearts){
     })
 }
 
-
-// Call Section
+// Call section
 let coins = 100;
 
 const callButtons = document.querySelectorAll('.btn-call');
@@ -56,7 +55,7 @@ for (const btn of callButtons){
     })
 }
 
-// Clear History Button
+// Clear history button
 const callHistory = document.getElementById('call-history');
 document.getElementById('btn-clr').addEventListener('click', function(event){
     // console.log('clear')
@@ -65,7 +64,7 @@ document.getElementById('btn-clr').addEventListener('click', function(event){
 })
 
 
-// Challenge Part
+// Challenge part
 let copyCount = 0;
 
 const btnCopy = document.querySelectorAll('.btn-copy')
